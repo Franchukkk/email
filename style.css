@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .sides {
     background-color: #dcdce5;
 }
@@ -103,4 +104,12 @@ td.header-second {
     color: #666666;
     font-family: "Arial";
     text-align: center;
+}
+
+.icons img{
+    padding-bottom: 15px;
+}
+
+.align-bottom{
+    vertical-align: bottom;
 }
