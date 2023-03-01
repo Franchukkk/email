@@ -1,24 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.sides{
-    width: 20%;
+.sides {
     background-color: #dcdce5;
 }
 
-.form-padding{
+.content-td {
+    width: 600px;
+}
+
+.form-padding {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
-td.header-second{
+td.header-second {
     text-align: right;
 }
 
-.phone-number{
-    
+.phone {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.contact-phone {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+    text-align: right;
+}
+
+.table-main {
+    padding-top: 20px;
+}
+
+.table-main h2 {
+    font-size: 24px;
+    line-height: 55px;
+    color: #24242b;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.table-main p {
+    max-width: 540px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+    padding-bottom: 20px;
+}
+
+.table-main a {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #fd8300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.icons{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 39px;
+    padding-left: 39px;
+    background-color: #ededf5;
+}
+
+.icons td h3 {
+    max-width: 160px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #24242b;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.icons td p {
+    max-width: 160px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666666;
+    font-family: "Arial";
+    text-align: center;
 }
