@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+td{
+    box-sizing: border-box;
+}
 
 .sides {
     background-color: #dcdce5;
@@ -68,13 +75,11 @@ td.header-second {
     border-radius: 20px;
     background-color: #fd8300;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 40px;
     color: #ffffff;
     font-weight: bold;
     font-family: "Arial";
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
     padding-right: 20px;
     padding-left: 20px;
     text-decoration: none;
