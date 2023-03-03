@@ -17,7 +17,7 @@ td {
 
 .content-td {
     width: 600px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .form-padding {
@@ -202,4 +202,16 @@ td.header-second {
 .line hr{
     border: none;
     border: 1px solid #e3e3eb;
+}
+
+.phone-header img{
+    padding-left: 130px;
+}
+
+.sides-down{
+    background-color: #f5f5f5;
+}
+
+.house-left{
+    padding-right: 0;
 }
