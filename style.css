@@ -20,15 +20,22 @@ td {
     background-color: #ffffff;
 }
 
-.form-padding {
+.form-padding td.padding{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
+.logo{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 td.header-second {
     text-align: right;
+    padding-right: 30px;
 }
 
 .phone {
@@ -52,6 +59,7 @@ td.header-second {
 .table-main {
     padding-top: 20px;
     padding-bottom: 35px;
+    padding-left: 30px;
 }
 
 .table-main h2 {
@@ -73,7 +81,7 @@ td.header-second {
 
 .table-main a {
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #fd8300;
     font-size: 14px;
     line-height: 40px;
@@ -87,11 +95,20 @@ td.header-second {
 }
 
 .icons {
+    background-color: #ededf5;
+}
+
+.block{
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-right: 39px;
-    padding-left: 39px;
-    background-color: #ededf5;
+}
+
+.first{
+    padding-left: 35px;
+}
+
+.last{
+    padding-right: 35px;
 }
 
 .icons td h3 {
@@ -113,19 +130,14 @@ td.header-second {
     text-align: center;
 }
 
-.icons img {
-    padding-bottom: 15px;
-}
-
 .align-bottom {
     vertical-align: bottom;
 }
 
 .houses {
     padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 25px;
 }
+
 
 .houses h3 {
     font-size: 16px;
@@ -148,7 +160,14 @@ td.header-second {
 }
 
 .image-houses {
+    padding-top: 25px;
     padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.edmonton-desc{
+    padding-left: 30px;
 }
 
 .sale {
@@ -175,15 +194,18 @@ td.header-second {
     text-align: center;
 }
 
-.copy{
-    padding-top: 20px;
+.soc-table td{
+    padding-bottom: 20px;
 }
 
 .footer{
-    padding-top: 15px;
-    padding-bottom: 15px;
     text-align: center;
     background-color: #000014;
+}
+
+.footer td{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer td,
@@ -195,17 +217,16 @@ td.header-second {
     text-align: center;
 }
 
-.line{
-    padding-top: 25px;
-}
 
 .line hr{
     border: none;
-    border: 1px solid #e3e3eb;
+    border-top-width: 1px;
+    border-top-color: #e3e3eb;
+    border-top-style: solid;
 }
 
-.phone-header img{
-    padding-left: 130px;
+.phone-td{
+    padding-left: 125px;
 }
 
 .sides-down{
@@ -213,5 +234,10 @@ td.header-second {
 }
 
 .house-left{
+    padding-left: 0;
     padding-right: 0;
+}
+
+.description td{
+    padding-top: 15px;
 }
