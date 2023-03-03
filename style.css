@@ -20,14 +20,14 @@ td {
     background-color: #ffffff;
 }
 
-.form-padding td.padding{
+.form-padding td.padding {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
-.logo{
+.logo {
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -98,16 +98,16 @@ td.header-second {
     background-color: #ededf5;
 }
 
-.block{
+.block {
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.first{
+.first {
     padding-left: 35px;
 }
 
-.last{
+.last {
     padding-right: 35px;
 }
 
@@ -166,16 +166,60 @@ td.header-second {
     padding-bottom: 25px;
 }
 
-.edmonton-desc{
+.edmonton-desc {
     padding-left: 30px;
 }
 
 .sale {
+    background-image: url(https://github.com/Franchukkk/email/blob/master/images/bg.png?raw=true);
     padding-top: 25px;
+    text-align: center;
+    width: 600px;
 }
 
-.sale img {
-    vertical-align: bottom;
+.sale h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.sale p {
+    margin: auto;
+    max-width: 400px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.sale a {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    border-radius: 20px;
+    background-color: #1f1f56;
+}
+
+.title{
+    padding-bottom: 12px;
+}
+
+.sale-description{
+    padding-bottom: 22px;
+}
+
+.sale-button{
+    padding-bottom: 35px;
 }
 
 .sociality {
@@ -194,22 +238,22 @@ td.header-second {
     text-align: center;
 }
 
-.soc-table td{
+.soc-table td {
     padding-bottom: 20px;
 }
 
-.footer{
+.footer {
     text-align: center;
     background-color: #000014;
 }
 
-.footer td{
+.footer td {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .footer td,
-.footer a{
+.footer a {
     font-size: 11px;
     line-height: 18px;
     color: #fd8300;
@@ -218,26 +262,26 @@ td.header-second {
 }
 
 
-.line hr{
+.line hr {
     border: none;
     border-top-width: 1px;
     border-top-color: #e3e3eb;
     border-top-style: solid;
 }
 
-.phone-td{
+.phone-td {
     padding-left: 125px;
 }
 
-.sides-down{
+.sides-down {
     background-color: #f5f5f5;
 }
 
-.house-left{
+.house-left {
     padding-left: 0;
     padding-right: 0;
 }
 
-.description td{
+.description td {
     padding-top: 15px;
 }
