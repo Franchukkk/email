@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.background{
+    background-color: #f5f5f5;
+}
+
 a {
     text-decoration: none;
 }
@@ -11,7 +15,7 @@ td {
     box-sizing: border-box;
 }
 
-.sides {
+.side {
     background-color: #dcdce5;
 }
 
@@ -20,11 +24,20 @@ td {
     background-color: #ffffff;
 }
 
+
+.form-padding{
+    width: 600px;
+}
+
 .form-padding td.padding {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+.white{
+    color: #ffffff;
 }
 
 .logo {
@@ -160,6 +173,7 @@ td.header-second {
 }
 
 .image-houses {
+    vertical-align: top;
     padding-top: 25px;
     padding-right: 20px;
     padding-left: 30px;
@@ -171,6 +185,7 @@ td.header-second {
 }
 
 .sale {
+    background-color: #fd8300;
     background-image: url(https://github.com/Franchukkk/email/blob/master/images/bg.png?raw=true);
     padding-top: 25px;
     text-align: center;
@@ -243,8 +258,14 @@ td.header-second {
 }
 
 .footer {
+    margin: auto;
+    width: 600px;
     text-align: center;
     background-color: #000014;
+}
+
+.side-footer{
+    background-color: #dcdce5;
 }
 
 .footer td {
@@ -284,4 +305,18 @@ td.header-second {
 
 .description td {
     padding-top: 15px;
+}
+
+
+.house-description{
+    padding-top: 10px;
+}
+
+.images td{
+    padding-top: 35px;
+}
+
+.footer-table{
+    width: 600px;
+    margin: auto;
 }
